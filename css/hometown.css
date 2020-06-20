@@ -1,0 +1,408 @@
+body{
+    /* 插入背景图片 */
+    background-image: url(../img/background/beijing2.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+     /* 去掉浏览器默认的8px的间隙 */
+    margin: 0;
+}
+
+/* 定义公告类inner，用来放置内容区，内容区宽度固定，居中。凝胶布局的关键代码！ */
+
+.inner{
+    /* 设置元素的高度*/
+    height: 100%;
+    width: 900px;
+    /* 为了美观，在元素左方留出一定的间隙*/
+    margin-left: auto;
+    /* 为了美观，在元素右方留出一定的间隙*/
+    margin-right: auto;
+    /* 设置背景的不透明度 */
+    background-color: rgba(255,255,255,0.3);
+}
+
+/* 页眉页header */
+
+#header{
+    /* 设置元素的高度*/
+    height: 170px;
+    /* 为了美观，设置元素中的文本居中对齐*/
+    text-align: center;
+}
+
+#header_title{
+    /* 设置元素的高度*/
+    height: 140px;
+     /* 为了美观，在元素上方留出一定的间隙*/
+    margin-top: 30px;
+}
+
+/* 导航区nav */
+
+#nav{
+    /* 设置元素的高度*/
+    height:60px;
+}
+
+.navbar{
+    width:100%;
+    /* 设置元素的高度*/
+    height:60px;
+    font-family: "Microsoft Yahei";
+	font-size:16px;
+	font-size:normal;
+	color:#fff;
+}
+
+.wp_nav{
+    width:100%;
+    /* 设置元素的高度*/
+	height:30px;
+    margin:0;
+     /* 为了美观，在元素上方留出一定的间隙*/
+    margin-top: 30px;
+	padding:0;
+    list-style-type:none;
+    /* 布局的关键代码，浮动字符*/
+    float:left;
+    font-family: "Microsoft Yahei";
+	font-size:16px;
+	font-size:normal;
+	color:#fff;
+}
+
+.nav-item{
+    /* 设置元素的高度*/
+    height: 100%;
+    /* 布局的关键代码，浮动字符*/
+    float:left;
+    font-family: "Microsoft Yahei";
+	font-size:16px;
+	font-size:normal;
+	color:#fff;
+}
+
+a{
+	font-family: "Microsoft Yahei";
+	font-size:16px;
+	font-size:normal;
+	color:#fff;
+}
+
+
+#nav1,#nav2,#nav3,#nav4{
+    padding: 0 48px;
+    /* 设置元素的高度*/
+	height:28px;
+}
+
+/* 1号内容区container_1 */
+
+#container_1{
+    /* 设置元素的高度*/
+    height:3450px;
+}
+
+.con_1_1{
+    width: 100%;
+    /* 设置元素的高度*/
+    height: 400px;
+    padding-top: 30px;
+}
+
+.con_1_1_right{
+    /* 布局的关键代码，浮动字符*/
+    float: right;
+    width: 600px;
+    /* 设置元素的高度*/
+    height: auto;
+}
+
+#con_1_1_right_pic{
+    width: 600px;
+    /* 设置元素的高度*/
+    height: auto;
+}
+
+.con_1_2{
+    width: 100%;
+    /* 设置元素的高度*/
+    height: 80px;
+    padding-top: 50px;
+}
+
+#con_1_2_pic{
+    width: 700px;
+    /* 设置元素的高度*/
+    height: auto;
+    /* 为了美观，在元素左方留出一定的间隙*/
+    margin-left: 100px;
+}
+
+.con_1_3{
+    width: 100%;
+    /* 设置元素的高度*/
+    height: 405px;
+    padding-top: 10px;
+}
+
+#con_1_3_pic{
+    width: 700px;
+    /* 设置元素的高度*/
+    height: auto;
+    /* 为了美观，在元素左方留出一定的间隙*/
+    margin-left: 100px;
+}
+
+.con_1_4{
+    width: 100%;
+    /* 设置元素的高度*/
+    height: 550px;
+    padding-top: 120px;
+}
+
+#con_1_4_pic{
+    width: 300px;
+    /* 设置元素的高度*/
+    height: auto;
+    /* 为了美观，在元素左方留出一定的间隙*/
+    margin-left: 300px;
+}
+
+.con_1_4_cont{
+    /* 设置背景的不透明度 */
+    background-color: rgba(255,255,255,0.5);
+    width: 700px;
+    /* 为了美观，在元素左方留出一定的间隙*/
+    margin-left: 100px;
+     /* 为了美观，在元素上方留出一定的间隙*/
+    margin-top: 20px;
+    /* 设置元素的高度*/
+    height: 400px;
+}
+
+.con_1_4_cont_left{
+    /* 布局的关键代码，浮动字符*/
+    float: left;
+    width: 360px;
+    /* 设置元素的高度*/
+    height: 360px;
+    /* 设置背景颜色为green */
+    //background-color: green;
+    margin: 20px;
+    /* 为了美观，在元素右方不留间隙*/
+    margin-right: 0px;
+}
+
+#con_1_4_cont_left_pic{
+    width: 360px;
+}
+
+.con_1_4_cont_right{
+    /* 布局的关键代码，浮动字符*/
+    float: right;
+    width: 300px;
+    /* 设置元素的高度*/
+    height: 360px;
+    margin: 20px;
+    /* 为了美观，在元素左方不留间隙*/
+    margin-left: 0px;
+    /* 为了美观，设置元素中的文本居中对齐*/
+    text-align: center;
+}
+
+.con_1_4_cont_right_title{
+    margin: 0px;
+}
+
+.con_1_4_cont_right_txt{
+     /* 为了美观，在元素上方留出一定的间隙*/
+    margin-top: 20px;
+    line-height: 30px;
+    text-indent: 2em;
+}
+
+.con_1_5{
+    width: 100%;
+    /* 设置元素的高度*/
+    height: 550px;
+    padding-top: 40px;
+}
+
+#con_1_5_pic{
+    width: 300px;
+    /* 设置元素的高度*/
+    height: auto;
+    /* 为了美观，在元素左方留出一定的间隙*/
+    margin-left: 300px;
+}
+
+.con_1_5_cont{
+    /* 设置背景的不透明度 */
+    background-color: rgba(255,255,255,0.5);
+    width: 700px;
+    /* 为了美观，在元素左方留出一定的间隙*/
+    margin-left: 100px;
+     /* 为了美观，在元素上方留出一定的间隙*/
+    margin-top: 20px;
+    /* 设置元素的高度*/
+    height: 400px;
+}
+
+.con_1_5_cont_left{
+    /* 布局的关键代码，浮动字符*/
+    float: left;
+    width: 360px;
+    /* 设置元素的高度*/
+    height: 360px;
+    //background-color: green;
+    margin: 20px;
+    /* 为了美观，在元素右方不留间隙*/
+    margin-right: 0px;
+}
+
+#con_1_5_cont_left_pic{
+    width: 360px;
+    /* 设置元素的高度*/
+    height: 360px;
+}
+
+.con_1_5_cont_right{
+    /* 布局的关键代码，浮动字符*/
+    float: right;
+    width: 300px;
+    /* 设置元素的高度*/
+    height: 360px;
+    margin: 20px;
+    /* 为了美观，在元素左方不留间隙*/
+    margin-left: 0px;
+    /* 为了美观，设置元素中的文本居中对齐*/
+    text-align: center;
+}
+
+
+.con_1_5_cont_right_title{
+    margin: 0px;
+}
+
+.con_1_5_cont_right_txt{
+     /* 为了美观，在元素上方留出一定的间隙*/
+    margin-top: 20px;
+    line-height: 30px;
+    text-indent: 2em;
+}
+
+.con_1_6{
+    width: 100%;
+    /* 设置元素的高度*/
+    height: 550px;
+    padding-top: 40px;
+}
+
+#con_1_6_pic{
+    width: 300px;
+    /* 设置元素的高度*/
+    height: auto;
+    /* 为了美观，在元素左方留出一定的间隙*/
+    margin-left: 300px;
+}
+
+.con_1_6_cont{
+    /* 设置背景的不透明度 */
+    background-color: rgba(255,255,255,0.5);
+    width: 700px;
+    /* 为了美观，在元素左方留出一定的间隙*/
+    margin-left: 100px;
+     /* 为了美观，在元素上方留出一定的间隙*/
+    margin-top: 20px;
+    /* 设置元素的高度*/
+    height: 400px;
+}
+
+.con_1_6_cont_left{
+    /* 布局的关键代码，浮动字符*/
+    float: left;
+    width: 360px;
+    /* 设置元素的高度*/
+    height: 360px;
+    //background-color: green;
+    margin: 20px;
+    /* 为了美观，在元素右方不留间隙*/
+    margin-right: 0px;
+}
+
+#con_1_6_cont_left_pic{
+    width: 360px;
+    /* 设置元素的高度*/
+    height: 360px;
+}
+
+.con_1_6_cont_right{
+    /* 布局的关键代码，浮动字符*/
+    float: right;
+    width: 300px;
+    /* 设置元素的高度*/
+    height: 360px;
+    margin: 20px;
+    /* 为了美观，在元素左方不留间隙*/
+    margin-left: 0px;
+    /* 为了美观，设置元素中的文本居中对齐*/
+    text-align: center;
+}
+
+
+.con_1_6_cont_right_title{
+    margin: 0px;
+}
+
+.con_1_6_cont_right_txt{
+     /* 为了美观，在元素上方留出一定的间隙*/
+    margin-top: 20px;
+    line-height: 30px;
+    text-indent: 2em;
+}
+
+.con_1_7{
+    width: 100%;
+    /* 设置元素的高度*/
+    height: 300px;
+    padding-top: 150px;
+}
+
+#con_1_7_pic{
+    width: 500px;
+    /* 设置元素的高度*/
+    height: auto;
+    /* 为了美观，在元素左方留出一定的间隙*/
+    margin-left: 200px;
+}
+
+.con_1_8{
+    width: 100%;
+    /* 设置元素的高度*/
+    height: 100px;
+    padding-top: 50px;
+}
+
+#con_1_8_pic{
+    width: 150px;
+    /* 设置元素的高度*/
+    height: auto;
+    /* 为了美观，在元素左方留出一定的间隙*/
+    margin-left: 375px;
+}
+
+/* 页脚区footer */
+
+#footer{
+    /* 设置元素的高度*/
+    height: 22px;
+}
+
+.copy_text{
+    /* 为了美观，设置元素中的文本居中对齐*/
+    text-align: center;
+    /* 设置背景的不透明度 */
+    background-color: rgba(255,255,255,0.3);
+    font-weight: bold;
+}
