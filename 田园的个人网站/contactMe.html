@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>田园的主页</title>
+    <link rel="stylesheet" href="./css/contactMe.css">
+</head>
+
+<body>
+    <!--可以通过左边的大纲视图查看文档结构，现在按位置查看-->
+    <!--页眉区header-->
+    <div id="header">
+        <!--每个区都有一个公共类inner，用来放置内容，内容区宽度固定，居中-->
+        <div class="inner">
+            <img id="header_title" src="./img/nav/header.png">
+        </div>
+    </div>
+    <!--end of header-->
+    <!--导航区nav-->
+    <div id="nav">
+        <div class="inner">
+            <div class="navbar">
+                <ul class="wp_nav">
+                    <li class="nav-item i1">
+                        <a href="index.html" title="首页">
+                            <img id="nav1" src="./img/nav/nav1.png">
+                        </a>
+                    </li>
+                    <li class="nav-item i2">
+                        <a href="hometown.html" title="我来自哪里">
+                            <img id="nav2" src="./img/nav/nav2.png">
+                        </a>
+                    </li>
+                    <li class="nav-item i3">
+                        <a href="hobby.html" title="我的小爱好">
+                            <img id="nav3" src="./img/nav/nav3.png">
+                        </a>
+                    </li>
+                    <li class="nav-item i4">
+                        <a href="contactMe.html" title="如何联系我">
+                            <img id="nav4" src="./img/nav/nav4.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--end of nav-->
+    <!--1号内容区container_1，内容又分为四部分，con_1_1、con_1_2、con_1_3和con_1_4-->
+    <div id="container_1">
+        <div class="inner">
+            <!--1号内容区container_1的子元素con_1_1-->
+            <div class="con_1_1">
+                <div class="con_1_1_1">
+                    <img id="con_1_1_1_pic" src="img/contactMe/con_1_pic10.png">
+                    <img id="con_1_1_2_pic" src="img/contactMe/con_1_pic11.png">
+                </div>
+            </div>
+            <!--end of con_1_1-->
+            <!--1号内容区container_1的子元素con_1_2-->
+            <div class="con_1_2">
+                <img id="con_1_2_1_pic" src="img/contactMe/con_1_pic12.png">
+            </div>
+            <!--end of con_1_2-->
+            <!--1号内容区container_1的子元素con_1_3-->
+            <div class="con_1_3">
+                    <table class="question">
+                        <tbody>
+                            <tr>
+                                <td class="questiontext">
+                                    您对我的个人网站整体满意度如何?          
+                                </td>
+                            </tr>
+                            <tr>
+                               <td class="answer">
+                                   <ul class="answer-list">
+                                       <li class="answer-item">
+                                           <input class="radio" type="radio">
+                                            <label>非常满意</label>
+                                       </li>
+                                       <li class="answer-item">
+                                            <input class="radio" type="radio">
+                                            <label>满意</label>
+                                       </li>
+                                       <li class="answer-item">
+                                            <input class="radio" type="radio">
+                                            <label>一般</label>
+                                       </li>
+                                       <li class="answer-item">
+                                            <input class="radio" type="radio">
+                                            <label>不满意</label>
+                                       </li>
+                                       <li class="answer-item">
+                                            <input class="radio" type="radio">
+                                            <label>非常不满意</label>
+                                       </li>
+                                   </ul>
+                               </td> 
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+            <!--end of con_1_3-->
+            <!--1号内容区container_1的子元素con_1_4-->
+            <div class="con_1_4">
+                <table class="question">
+                    <tbody>
+                        <tr>
+                            <td class="questiontext">
+                                您对我的个人网站有什么想法，请大声说出来吧！（例如：哪里有问题，哪些功能做得不够好等）  
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="answer">
+                                <p class="answer-item text-item">
+                                    <textarea class="textarea-empty" rows="5" cols="60"></textarea>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="submit-buttons">
+                                <button type="submit" accesskey="1">
+                                    <span class="subButton">提交</span>
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--end of con_1_4-->
+        </div>
+    </div>
+    <!--end of container_1-->
+    <!--页脚区footer-->
+    <div id="footer">
+        <div class="copy_text inner">Copyright © 2020-2030 TianYuan. All Rights Reserved.</div>
+    </div>
+    <!--end of footer-->
+</body>
+
+</html>
